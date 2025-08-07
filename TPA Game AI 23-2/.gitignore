@@ -1,0 +1,11 @@
+# Ignore the Assets folder
+Assets/
+
+# Unity specific
+Library/
+obj/
+Temp/
+Logs/
+Build/
+.vs/
+.vscode/
