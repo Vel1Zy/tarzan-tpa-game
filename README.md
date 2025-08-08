@@ -1,6 +1,8 @@
+September 2023
+
 # TarZan - Free Roam RPG and Tower Defense Game
 
-Test Progressive Assistant - Game Development using Unity (C#), September 2023.
+Test Progressive Assistant - Game Development using Unity (C#).
 
 ## Overview
 
