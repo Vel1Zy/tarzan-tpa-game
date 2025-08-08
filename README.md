@@ -1,4 +1,4 @@
-September 2023
+**September 2023**
 
 # TarZan - Free Roam RPG and Tower Defense Game
 
