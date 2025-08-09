@@ -1,10 +1,4 @@
-**September 2023**
-
-# TarZan - Free Roam RPG and Tower Defense Game
-
-Test Progressive Assistant - Game Development using Unity (C#).
-
-## Overview
+# TarZan - Free Roam RPG and Tower Defense Game (September, 2023)
 
 **TarZan** is an engaging RPG and Tower Defense game developed using Unity and C#. The game allows players to explore a vast world filled with dynamic biomes, NPC interactions, wildlife, and challenging tower defense levels. The game world is procedurally generated using the **Wave Function Collapse** algorithm, providing a unique terrain for each playthrough. Enemies navigate the terrain using the **A\* Pathfinding** algorithm, ensuring they take the most efficient route to their target.
 
