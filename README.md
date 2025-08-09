@@ -1,106 +1,79 @@
-# TarZan - Free Roam RPG and Tower Defense Game (September, 2023)
+# TarZan - Free Roam RPG & Tower Defense 🎮
 
-**TarZan** is an engaging RPG and Tower Defense game developed using Unity and C#. The game allows players to explore a vast world filled with dynamic biomes, NPC interactions, wildlife, and challenging tower defense levels. The game world is procedurally generated using the **Wave Function Collapse** algorithm, providing a unique terrain for each playthrough. Enemies navigate the terrain using the **A\* Pathfinding** algorithm, ensuring they take the most efficient route to their target.
+> A dynamic RPG and Tower Defense game developed in **Unity** and **C#**. Dive into a procedurally generated world, tame wildlife, and defend your tower against waves of intelligent enemies. *(Created: September, 2023)*
 
-## Features
+![Tarzan Game Banner](https://github.com/user-attachments/assets/b83c5005-4c07-42f5-888e-670560a6136d)
 
-### General Features
+## About The Project
 
-- **Procedural Terrain Generation**: The world is procedurally generated using **Wave Function Collapse** to create diverse, explorable landscapes.
-- **A\* Pathfinding**: Enemies follow the shortest path to their target, creating a more challenging and dynamic gameplay experience.
-- **Free Roam & Tower Defense**: The game features a free roam mode where players explore biomes and tame animals, and a tower defense mode where players protect a tower from waves of enemies.
-- **FPS Camera System**: The camera behaves as a first-person shooter (FPS), giving the player full control of movement and vision.
+**TarZan** combines the thrill of open-world exploration with the strategic challenge of tower defense. Players can freely roam a vast, procedurally generated world filled with unique biomes, interactive NPCs, and wildlife. The core of the game revolves around exploring the world to gather resources and companions, then defending a central tower against increasingly difficult waves of enemies.
 
-### Gameplay Features
+---
 
-- **Explorable Biomes**: The terrain includes multiple biomes with unique foliage, weather effects, and interactive elements.
-- **NPC Interactions**: Players can speak with NPCs, including one located on top of a giant tree to start the tower defense game.
-- **Animal Companions**: Tame animals to use as pets, which help during the tower defense and attack other wildlife.
-- **Wave-based Tower Defense**: Each level increases enemy difficulty. The game uses A\* to generate a maze for the tower defense layout.
-- **Boss Battles**: Battle with a dragon as the final boss. Defeating it leads to the victory page.
+## Core Mechanics
 
-### Pathfinding & Maze Generation
+This game is built upon two powerful algorithms to create a unique and challenging experience every time you play.
 
-- **A\* Pathfinding**: Enemies use A\* to navigate the generated terrain to reach their target. The maze used for tower defense also utilizes A\* to ensure the shortest path for enemy movement.
+-   **Procedural Terrain Generation**: The world is generated on the fly using the **Wave Function Collapse** algorithm. This ensures that every new game offers a fresh, unique, and unpredictable landscape to explore.
+-   **A\* Pathfinding**: Enemies navigate the complex, procedurally generated terrain using the **A\* Pathfinding** algorithm. This allows them to intelligently find the most efficient route to their target, creating a dynamic and challenging gameplay experience, especially in the tower defense maze.
 
-### Combat & Actions
+---
 
-- **Player Actions**: Players can move, sprint, jump, climb trees, punch, throw rocks, and grapple objects using a variety of controls (e.g., W, A, S, D for movement, Left Click for punch, etc.).
-- **Combat System**: Players fight against enemies using their attack and defense attributes. Animals can also be tamed and used to fight enemies.
+## Key Features
+
+### ⚔️ Gameplay
+* **Dual Modes**: Seamlessly switch between a **Free Roam** mode for exploration and a **Tower Defense** mode for intense, strategic battles.
+* **Explorable Biomes**: Traverse diverse landscapes with unique foliage, weather effects, and interactive elements.
+* **NPC Interactions**: Engage with various NPCs, including one perched atop a giant tree who initiates the tower defense challenge.
+* **Animal Companions**: Tame defeated wildlife to become loyal pets that assist in combat and tower defense.
+* **Epic Boss Battles**: Face off against a formidable dragon in a climactic final battle to secure victory.
+
+### 🤖 Technical
+* **Wave-based Tower Defense**: Defend your tower from increasingly difficult enemy waves within a maze layout intelligently generated using the A\* algorithm.
+* **Immersive FPS Camera**: A first-person shooter (FPS) style camera gives you full control over movement and vision for a truly immersive experience.
+* **Advanced Combat System**: Utilize a range of player actions and attributes to fight enemies, and command your tamed animals in battle.
+
+---
 
 ## Technologies Used
 
-- **Unity**: Game development engine for building and rendering the game.
-- **C#**: Programming language for scripting gameplay mechanics.
-- **Wave Function Collapse**: Algorithm used for procedural map generation.
-- **A\* Pathfinding**: Algorithm used for enemy pathfinding.
-- **Post Processing Effects**: For enhanced visuals and aesthetics.
+![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-## Gameplay
+* **Game Engine**: Unity
+* **Programming Language**: C#
+* **Map Generation**: Wave Function Collapse Algorithm
+* **Enemy Navigation**: A\* Pathfinding Algorithm
+* **Visuals**: Post Processing Effects for enhanced aesthetics.
 
-### Main Menu
+---
 
-- Display the **TarZan logo** and a scenic view of a **forest/grassland**.
-- Interactive **buttons** for starting the game, changing settings, or exiting.
-- **Fade animations** for smooth transitions between scenes.
+## Player Controls
 
-### Settings Page
+| Action | Key(s) |
+| :--- | :--- |
+| **Movement** | `W`, `A`, `S`, `D` |
+| **Sprint** | `Left Shift` |
+| **Jump / Climb** | `Space` |
+| **Punch** | `Left Click` |
+| **Throw Rock** | `X` |
+| **Grapple** | `Right Click` |
+| **Pause Game** | `P` |
 
-- **Dropdown menus** for adjusting **antialiasing** and **quality settings**.
-- **Slider** for adjusting **volume**.
-- **Toggle** for switching between fullscreen and windowed modes.
+---
 
-### Loading Page
-
-- Shows an animation to indicate that the game is loading, providing feedback to the player.
-
-### Game Page
-
-- The **terrain system** includes multiple biomes and decorative elements such as trees, grass, and rocks.
-- The player can explore, fight enemies, and interact with NPCs.
-- The **tower defense mode** is activated by speaking to an NPC. Each wave of enemies will increase in difficulty.
-- The player can **tame animals** to help during tower defense.
-
-### Tower Defense Mechanics
-
-- Use **A\* Pathfinding** to create a maze for the tower defense layout.
-- Enemies will spawn in waves, with each wave becoming more difficult than the last.
-- The player needs to defend the tower, which has limited health points. If the tower's health reaches 0, the game ends.
-
-## Controls
-
-- **Movement**: W, A, S, D
-- **Punch**: Left Click
-- **Sprint**: Left Shift
-- **Jump**: Space
-- **Climb**: Space (while near a tree)
-- **Strafe**: A, D
-- **Throw Rock**: X
-- **Pause Game**: P
-- **Grapple**: Right Click
-
-## Enemy Behavior
-
-- **Wildlife Animals**: Animals will follow the player if close, and can be tamed once defeated.
-- **Enemies in Tower Defense**: Enemies spawn with increasing speed and health. They follow the shortest path to the tower using **A\* Pathfinding**.
-
-## Final Boss - The Dragon
-
-- The **Dragon** is a powerful final boss that can move, attack, and chase the player. Once defeated, the player is shown the **Victory Page**.
-
-## Contributing
+## How to Contribute
 
 We welcome contributions to improve **TarZan**!
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes and commit them (`git commit -am 'Add feature'`).
-4. Push to your fork (`git push origin feature-name`).
-5. Submit a pull request.
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/YourFeatureName`).
+3.  Make your changes and commit them (`git commit -m 'Add some amazing feature'`).
+4.  Push to your branch (`git push origin feature/YourFeatureName`).
+5.  Open a new Pull Request.
 
 ## Acknowledgements
 
-- **Wave Function Collapse** for procedural world generation.
-- **A\* Pathfinding** for intelligent enemy navigation.
-- **Unity** for providing a powerful game engine to build this project.
-- **Design Patterns** and **Object-Oriented Programming** principles for structuring the game.
+-   The **Wave Function Collapse** algorithm for creating endless, unique worlds.
+-   The **A\* Pathfinding** algorithm for bringing intelligent navigation to our enemies.
+-   **Unity** for providing a powerful and flexible game development engine.
