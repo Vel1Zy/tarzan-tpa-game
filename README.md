@@ -2,8 +2,6 @@
 
 > A dynamic RPG and Tower Defense game developed in **Unity** and **C#**. Dive into a procedurally generated world, tame wildlife, and defend your tower against waves of intelligent enemies. *(Created: September, 2023)*
 
-![Tarzan Game Banner](https://github.com/user-attachments/assets/b83c5005-4c07-42f5-888e-670560a6136d)
-
 ## About The Project
 
 **TarZan** combines the thrill of open-world exploration with the strategic challenge of tower defense. Players can freely roam a vast, procedurally generated world filled with unique biomes, interactive NPCs, and wildlife. The core of the game revolves around exploring the world to gather resources and companions, then defending a central tower against increasingly difficult waves of enemies.
